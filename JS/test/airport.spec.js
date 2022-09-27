@@ -55,7 +55,7 @@ describe('Aircompany test', () => {
         for (let i = 0; i < planesSortedByMaxLoadCapacity.length - 1; i++) {
             let currentPlane = planesSortedByMaxLoadCapacity[i];
             let nextPlane = planesSortedByMaxLoadCapacity[i + 1];
-            if (currentPlane.getMinLoadCapacity() > nextPlane.getMinLoadCapacity()) {
+            if (currentPlane.getMaxLoadCapacity() > nextPlane.getMaxLoadCapacity()) {
                 nextPlaneMaxLoadCapacityIsHigherThanCurrent = false;
                 break;
             }

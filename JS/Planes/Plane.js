@@ -18,7 +18,7 @@ class Plane {
       return this.maxFlightDistance;
     }
   
-    getMinLoadCapacity() {
+    getMaxLoadCapacity() {
       return this.maxLoadCapacity;
     }
   }
